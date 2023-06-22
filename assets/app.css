@@ -1,0 +1,49 @@
+/* Body Manipulators */
+.body {
+    font-family: "Lato", sans-serif;
+    background-color: #0d1117;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    border-bottom: 1px solid #adb5bd;
+}
+
+footer {
+    margin-top: auto;
+    border-top: 1px solid #adb5bd;
+}
+
+.brand-logo {
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Typography Manipulators */
+.font-logo {
+    font-family: "Patua One", sans-serif;
+}
+label {
+    user-select: none;
+}
+
+/* Design Elements */
+.main-box {
+    border: 1px solid rgb(102, 102, 102);
+    border-radius: 0.4rem;
+    background-color: #1d242f;
+}
+.result-box {
+    border-radius: 0.4rem;
+    background-color: #1d242f;
+}
+.main-box > div:first-child,
+.result-box > div:first-child {
+    padding-top: 0.8rem;
+}
+.main-box > div:last-child,
+.result-box > div:last-child {
+    padding-bottom: 0.8rem;
+}
